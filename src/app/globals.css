@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.primary{
+    @apply bg-[#00A19B];
+}
+
+/* styles.css */
+.navlinks {
+    @apply px-4 py-1.5 rounded-full  text-sm font-semibold hover:bg-white/25 hover:text-white transition duration-300 ease-in;
+  }
+  

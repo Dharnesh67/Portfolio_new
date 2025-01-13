@@ -20,7 +20,14 @@ const config: Config = {
         md: "2rem",
       },
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        // anytime we write sans we are going to use this inter font
+        // anytime we write serif we are going to use this calistoga font
+        sans: "var(--font-sans)",
+        serif: "var(--font-serif)"
+      }
+    },
   },
   plugins: [],
 };
